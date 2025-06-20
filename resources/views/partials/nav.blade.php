@@ -19,7 +19,7 @@
               <a href="{{ route('myskill') }}">MySkill</a>
             </li>
             <li>
-              <a href="#service">Portofolio</a>
+              <a href="{{ route('portofolio') }}">Portofolio</a>
             </li>
             <li>
               <a href="{{ route('contact') }}">Contact</a>

@@ -23,14 +23,14 @@
 
             <div class="row align-items-center ">
                 <div class="col-md-6 text-center text-md-start">
-                    <img src="{{ asset('assets/img/logo.png') }}" alt="Logo" style="width: 80px;">
+                    
                     <h1 class="display-1 fw-bold">Hi, I am</h1>
                     <h2 class="fw-medium">Rafly Fadriansyah Ramadhani</h2>
                     <p class="fs-4 fw-light">Undergraduate <br> System Information</p>
                     <p class="fs-5">At <br> Gunadarma University</p>
                 </div>
                 <div class="col-md-6 text-center ">
-                    <img src="{{ asset('assets/img/fotodiri.png') }}" alt="Profile" class="img-fluid" style="max-width: px;">
+                    <img src="{{ asset('assets/img/fotodiri.png') }}" alt="Profile" class="img-fluid" style="max-width: 500px;">
                 </div>
             </div>
         </div>
