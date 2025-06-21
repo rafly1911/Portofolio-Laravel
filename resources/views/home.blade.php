@@ -52,6 +52,9 @@
                     </a>
                 </div>
 
+                
+
+
             </div>
         </div>
     </section>
@@ -61,11 +64,13 @@
     {{-- Extra Content Section --}}
     <section class="py-5 bg-dark text-white">
         <div class="container text-center">
-            <h4 class="mb-4">About Me</h4>
+            <h2 class="mb-4">About Me</h2>
             <div class="d-flex justify-content-center gap-4">
-                <p>Mahasiswa semester 6 Program Studi Sistem Informasi di Universitas Gunadarma dengan fokus utama pada pengembangan website seperti UI/UX, HTML, CSS, PHP. Saya fleksibel, kreatif, dan berpikiran terbuka, serta mampu bekerja secara mandiri atau kelompok dengan memanfaatkan keterampilan kepemimpinan dan manajemen proyek yang saya peroleh melalui keterlibatan aktif di Badan Eksekutif Mahasiswa. Selain itu, minat saya yang tinggi dalam bidang UI/UX, Data Analyst membuat saya mendalami kedua bidang tersebut. sehingga dapat memberikan solusi inovatif yang mendukung pengambilan keputusan yang lebih baik.</p>
+                <h5>Mahasiswa semester 6 Program Studi Sistem Informasi di Universitas Gunadarma dengan fokus utama pada pengembangan website seperti UI/UX, HTML, CSS, PHP. Saya fleksibel, kreatif, dan berpikiran terbuka, serta mampu bekerja secara mandiri atau kelompok dengan memanfaatkan keterampilan kepemimpinan dan manajemen proyek yang saya peroleh melalui keterlibatan aktif di Badan Eksekutif Mahasiswa. Selain itu, minat saya yang tinggi dalam bidang UI/UX, Data Analyst membuat saya mendalami kedua bidang tersebut. sehingga dapat memberikan solusi inovatif yang mendukung pengambilan keputusan yang lebih baik.</h5>
             </div>
         </div>
+
+        @include('partials.foother')
     </section>
 
     {{-- Bootstrap JS --}}
