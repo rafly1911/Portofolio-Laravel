@@ -1,7 +1,7 @@
 <header class="main-header">
   <div class="container">
     <nav class="navbar navbar-expand-lg main-nav px-0 ">
-      <a class="navbar-brand" href="/mojo">
+      <a class="navbar-brand" href="{{ route('home') }}">
         <img src="{{ asset('assets/img/logo.png') }}" alt="Fadriansyah.Com">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
